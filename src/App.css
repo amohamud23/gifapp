@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  
+  
+  height: 100vh;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 
 .App-logo {
@@ -28,6 +34,29 @@
   color: #61dafb;
 }
 
+.color-selector-box {
+  height: 200px;
+  width: 100px;
+  border-color: red;
+  border-style: solid;
+  text-align: left;
+}
+
+.texture-selector-box {
+  height: 200px;
+  width: 100px;
+  border-color: blue;
+  border-style: solid;
+  text-align: left;
+
+}
+
+.searchbox{
+  margin-top: 300px;
+  position: relative;
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +65,4 @@
     transform: rotate(360deg);
   }
 }
+
